@@ -1,1 +1,179 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+    .mySlides {display: none}
+  </style>
+</head>
+<body class="w3-content w3-border-left w3-border-right">
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <span class="w3-bar-item">Alquiler temporario</span>
+  <span class="w3-right w3-bar-item" ><i class="fa fa-fw fa-map-marker"></i> Merlo, San Luis</span>
+</header>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-white" style="margin-left:260px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:80px"></div>
+
+  <!-- Slideshow Header -->
+  <div class="w3-container" id="apartment">
+    <h2 class="w3-text-green">La Casita</h2>
+    <div class="w3-display-container mySlides">
+      <img src="assets/images/photo_1.jpeg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="assets/images/photo_2.jpeg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Dining Room</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="assets/images/photo_3.jpeg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Bedroom</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="assets/images/photo_4.jpeg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room II</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="assets/images/photo_5.jpeg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room II</p>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/photo_1.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Living room">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/photo_2.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Dining room">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/photo_3.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/photo_5.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="assets/images/photo_4.jpeg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
+    </div>
+  </div>
+
+  <div class="w3-container">
+    <h4><strong>The space</strong></h4>
+    <div class="w3-row w3-large">
+      <div class="w3-col s6">
+        <p><i class="fa fa-fw fa-male"></i> Max people: 4</p>
+        <p><i class="fa fa-fw fa-bed"></i> Bedrooms: 2</p>
+        <p><i class="fa fa-fw fa-bath"></i> Bathrooms: 1</p>
+      </div>
+      <div class="w3-col s6">
+        <p><i class="fa fa-fw fa-clock-o"></i> Check In: Flexible</p>
+        <p><i class="fa fa-fw fa-clock-o"></i> Check Out: 10AM</p>
+      </div>
+    </div>
+    <hr>
+
+    <h4><strong>Amenities</strong></h4>
+    <div class="w3-row w3-large">
+      <div class="w3-col s6">
+        <p><i class="fa fa-fw fa-wifi"></i> WiFi</p>
+        <p><i class="fa fa-fw fa-tv"></i> TV</p>
+        <p><i class="fa fa-fw fa-thermometer"></i> Indoor fireplace/Chimenea interior</p>
+      </div>
+      <div class="w3-col s6">
+        <p><i class="fa fa-fw fa-cutlery"></i> Kitchen/Cocina</p>
+        <p><i class="fa fa-fw fa-shower"></i> Shower/Ducha</p>
+        <p><i class="fa fa-fw fa-ravelry"></i> Washer/Lavarropas</p>
+      </div>
+      <div class="w3-col s6">
+        <p><i class="fa fa-fw fa-car"></i> Parking/Estacionamiento</p>
+        <p><i class="fa fa-fw fa-sun-o"></i><i class="fa fa-fw fa-moon-o"></i> Backyard/Patio</p>
+        <p><i class="fa fa-fw fa-fire"></i> Fire pit/Lugar para hacer fogatas</p>
+      </div>
+
+    </div>
+    <hr>
+
+    <h4><strong>Extra Info</strong></h4>
+    <p>
+      Nuestra casa se encuentra al pie de las sierras y a solo 5 minutos en auto del centro de la ciudad.
+    </p>
+    <p>
+      Dentro de un gran parque cercado, con muchos árboles, en su mayoría frutales, podrás relajarte en un ambiente apacible sin más vecinos que el bosque y los animales.
+    </p>
+    <p>
+      En la zona, podrás encontrar una gran cantidad de especies de árboles y una amplia variedad de plantas. Además, hay muchas clases de aves y animales como zorros, liebres, ipacaás, etc.
+    </p>
+    <p>
+      Que disfrutes de nuestra casita de campo!
+    </p>
+    <hr>
+
+<!--    <footer class="w3-container w3-padding-16" style="margin-top:32px">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></footer>-->
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+    // Script to open and close sidebar when on tablets and phones
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Slideshow Apartment Images
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-opacity-off";
+    }
+  </script>
+
+</body>
+</html>
